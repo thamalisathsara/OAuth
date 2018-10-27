@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<title>File Uploader</title>
+</head>
+
+<body background="images/silver.jpg">
+	<div>
+		<div align="right">
+			<a href="/logout" align="right-top">Logout</a>
+		</div>
+		<div class="container" align="center">
+			<div>
+				<h2 class="display-4">Google Drive File Uploader</h2>
+				<hr class="my-4">
+			</div>
+			<br>
+			<form id="imageUpload" method="POST" action="/upload" enctype="multipart/form-data">
+				<div class="text-left">
+					<input type="file" id="files" name="file" width="50" height="17"
+						data-multiple-caption="{count} files selected" multiple />
+					<div class="text-left">
+						<br />
+						<output id="selectedFiles"></output>
+					</div>
+				</div>
+				<br /> <input id="uploadButton" type="button" class="btn btn-success" value="Upload" /> 
+			</form>
+		</div>
+	</div>
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootbox.min.js"></script>
+	<script type="text/javascript" src="js/upload.js"></script>
+</body>
+</html>

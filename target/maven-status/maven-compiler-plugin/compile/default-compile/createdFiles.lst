@@ -1,0 +1,5 @@
+com\sliit\ssd\oauth\controller\MainController.class
+com\sliit\ssd\oauth\OauthApplication.class
+com\sliit\ssd\oauth\util\AppConfig.class
+com\sliit\ssd\oauth\model\FileModel.class
+com\sliit\ssd\oauth\service\GoogleDriveService.class
